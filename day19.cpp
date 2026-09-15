@@ -14,7 +14,7 @@ public:
     }
 };
 
-complex::complex(int x, int y)   // ----> This is parameterizes constructor as it takes 2 parameters
+complex::complex(int x, int y)   // ----> This is parameterizes constructor as it takes 2 parameters.
 {
     a = x;
     b = y;
