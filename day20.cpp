@@ -39,7 +39,5 @@ int main()
     complex c3;
     c3.printNumber();
 
-
-
     return 0;
 }
