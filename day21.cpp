@@ -17,7 +17,7 @@ public:
 
 void Simple::printData()
 {
-    cout << "The value of data1 and data2 is: " << data1 << " and " << data2 << endl;
+    cout << "The value of data1 and data2 is : " << data1 << " and " << data2 << endl;
 }
 
 int main()
