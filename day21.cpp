@@ -7,7 +7,7 @@ class Simple
     int data2;
 
 public:
-    Simple(int a, int b)
+    Simple(int a, int b = 7)
     {
         data1 = a;
         data2 = b;
