@@ -53,6 +53,8 @@ int main()
     float r;
     int R;
 
+    bd3.show();
+
     cout << "Enter your value of p y and r:" << endl;
     cin >> p >> y >> r;
     bd1 = BankDeposit(p, y, r);
