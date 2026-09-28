@@ -18,7 +18,7 @@ public:
 
 // Derived Class syntx
 /*
-class {{derived-class-name}} : {{visibility-mode}} : {{base-class-name}}
+class {{derived-class-name}} : {{visibility-mode}}  {{base-class-name}}
 {
     class members/methods/etc...
 }
