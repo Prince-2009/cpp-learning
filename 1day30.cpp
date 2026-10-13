@@ -47,23 +47,25 @@ public:
         cout << "The cube root of d: " << cbrt(d) << endl;
         cout << "The value of c raised to the power of d: " << pow(c, d) << endl;
         cout << "The value of d raised to the power of c: " << pow(d, c) << endl;
-        cout<<"The sine of "<<a<<" + "<<b<<" is: "<<sin(a+b)<<endl;
-        cout<<"The cosine of "<<a<<" + "<<b<<" is: "<<cos(a+b)<<endl;
-        cout<<"The tangent of "<<a<<" + "<<b<<" is: "<<tan(a+b)<<endl;
+        cout << "The sine of " << a << " + " << b << " is: " << sin(a + b) << endl;
+        cout << "The cosine of " << a << " + " << b << " is: " << cos(a + b) << endl;
+        cout << "The tangent of " << a << " + " << b << " is: " << tan(a + b) << endl;
     }
 };
 
-class Hybrid : virtual public Simple, public Scientific {
-    public:
-    void display_hybrid() {
-        cout<<"The result in both simple and scientific operations are: "<<endl;
+class Hybrid : virtual public Simple, public Scientific
+{
+public:
+    void display_hybrid()
+    {
+        cout << "The result in both simple and scientific operations are: " << endl;
         display();
         display_scientific();
     }
-        
 };
 
-int main(){
+int main()
+{
     Hybrid h;
     h.input();
     h.input_scientific();
