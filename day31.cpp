@@ -39,16 +39,44 @@ public:
     }
 };
 
+class B
+{
+public:
+    void greet()
+    {
+        cout << "Hello world" << endl;
+    }
+};
+
+class D : public B
+{
+    int a;
+
+// public:
+//     void greet()
+//     {
+//         cout << "Hello new world" << endl;
+//     }
+};
+
 int main()
 {
-    Base1 b1;
-    b1.greet();
+    // Ambibuity 1
+    // Base1 b1;
+    // b1.greet();
 
-    Base2 b2;
-    b2.greet();
+    // Base2 b2;
+    // b2.greet();
 
-    Derived d;
+    // Derived d;
+    // d.greet();
+
+    // Ambibuity 2
+    B b;
+    b.greet();
+
+    D d;
     d.greet();
-    
+
     return 0;
 }
