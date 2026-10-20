@@ -51,6 +51,12 @@ public:
         cout << "The sine of " << a << " + " << b << " is: " << sin(a + b) << endl;
         cout << "The cosine of " << a << " + " << b << " is: " << cos(a + b) << endl;
         cout << "The tangent of " << a << " + " << b << " is: " << tan(a + b) << endl;
+        cout << "The  value of sin(a) is: "<<sin(a)<<endl;
+        cout << "The  value of cos(a) is: "<<cos(a)<<endl;
+        cout << "The  value of tan(a) is: "<<tan(a)<<endl;
+        cout << "The  value of sin(b) is: "<<sin(b)<<endl;
+        cout << "The  value of cos(b) is: "<<cos(b)<<endl;
+        cout << "The  value of tan(b) is: "<<tan(b)<<endl;
     }
 };
 
