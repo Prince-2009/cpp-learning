@@ -13,7 +13,7 @@ The useful classes for working with file in c++ are:
 // 2. Using the member function open() of the class.
 
 int main() {
-    string st = "This is from Prince side.";
+    string st = "Hey, This is from Prince side.";
     string st1 ;
 
     // Opening file using constructor and writing it.
