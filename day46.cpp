@@ -15,8 +15,8 @@ int main()
     ifstream in;
     string st;
     in.open("sample46.txt");
-    in >> st;
-    cout << st;
+    // in >> st;
+    // cout << st;
 
     while (in.eof() == 0)
     {
