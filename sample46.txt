@@ -1,3 +1,3 @@
 This is my sample46.txt file.
 Hey, I'm Shazam.
-Thank you for seeing my code.
+Thank you, for seeing my code.
